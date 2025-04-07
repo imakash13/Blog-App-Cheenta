@@ -6,7 +6,7 @@ export default function Contact() {
     <div className="contact-page">
       <h2>Contact Information</h2>
       <div className="contact-details">
-        <p><strong>Company Name:</strong> Employee Management Solutions</p>
+        <p><strong>Company Name:</strong> Unseen Blogs</p>
         <p><strong>Email:</strong> akashpsit13@gmail.com</p>
         <p><strong>Phone:</strong> +91 98765 43210</p>
         <p><strong>Address:</strong> 2nd Floor, TechPark, Koramangala, Bangalore, India</p>
