@@ -1,0 +1,40 @@
+.contact-page {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-page h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+  }
+  
+  .contact-details p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #444;
+  }
+  
+  .contact-details ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .contact-details ul li {
+    margin: 5px 0;
+  }
+  
+  .contact-details a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-details a:hover {
+    text-decoration: underline;
+  }
+  
