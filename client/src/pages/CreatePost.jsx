@@ -14,7 +14,7 @@ export default function CreatePost() {
     e.preventDefault();
     const token = localStorage.getItem('token');
     try {
-      await axios.post('https://render.com/docs/web-services#port-binding/api/posts', formData, {
+      await axios.post('https://blog-app-uke9.onrender.com/api/posts', formData, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
