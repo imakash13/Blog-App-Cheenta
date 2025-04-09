@@ -9,7 +9,7 @@ export default function PostDetails() {
 
   const fetchPost = async () => {
     try {
-      const res = await axios.get(`https://render.com/docs/web-services#port-binding/api/posts/${id}`);
+      const res = await axios.get(`https://blog-app-uke9.onrender.com/api/posts/${id}`);
       setPost(res.data);
     } catch (err) {
       console.error('Failed to fetch post', err);
@@ -23,7 +23,7 @@ export default function PostDetails() {
   const handleDelete = async () => {
     const token = localStorage.getItem('token');
     try {
-      await axios.delete(`https://render.com/docs/web-services#port-binding/api/posts/${id}`, {
+      await axios.delete(`https://blog-app-uke9.onrender.com/api/posts/${id}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
