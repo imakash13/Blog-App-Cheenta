@@ -9,7 +9,7 @@ export default function EditPost() {
 
   useEffect(() => {
     const fetchPost = async () => {
-      const res = await axios.get(`https://render.com/docs/web-services#port-binding/api/posts/${id}`);
+      const res = await axios.get(`https://blog-app-uke9.onrender.com/api/posts/${id}`);
       setForm({ title: res.data.title, content: res.data.content });
     };
     fetchPost();
