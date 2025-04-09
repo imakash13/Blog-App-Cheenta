@@ -9,7 +9,7 @@ export default function EditPost() {
 
   useEffect(() => {
     const fetchPost = async () => {
-      const res = await axios.get(`http://localhost:5000/api/posts/${id}`);
+      const res = await axios.get(`https://render.com/docs/web-services#port-binding/api/posts/${id}`);
       setForm({ title: res.data.title, content: res.data.content });
     };
     fetchPost();
@@ -20,7 +20,7 @@ export default function EditPost() {
     try {
       const token = localStorage.getItem('token');
       await axios.put(
-        `http://localhost:5000/api/posts/${id}`,
+        `https://render.com/docs/web-services#port-binding/api/posts/${id}`,
         form,
         { headers: { Authorization: `Bearer ${token}` } }
       );
